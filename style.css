@@ -1,0 +1,361 @@
+@import url(https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital@0;1&family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap); 
+
+.nav a,body{
+    font-family: Montserrat,sans-serif;
+}
+.nav,main{
+    display: flex;
+}
+.jumbotron,footer{
+    background-color: rgba(0,0,0,.5);
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('assets/genshin-impact-landscape.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+}
+.jumbotron{
+    width: 100%;
+    max-width: 100vw;
+    text-align: center;
+    padding: 30px;
+}
+.card,footer{
+    padding: 20px;
+}
+.title{
+    font-family: 'IM Fell French Canon',serif;
+    font-size: 4em;
+    color: #fff;
+}
+.subtitle{
+    font-family: Raleway,sans-serif;
+    font-size: 1em;
+    color: #fff;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+nav{
+    background-color: rgba(0,0,0,.5);
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.nav{
+    margin-bottom: 20px;
+    justify-content: center;
+}
+.nav a{
+    font-weight: 700;
+    color: #fff;
+    margin: 0 20px;
+    text-decoration: none;
+    transition: color .3s;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: #5f9ea0;
+}
+main{
+    justify-content: space-between;
+    padding: 50px 20px;
+    margin-left: 50px;
+}
+.main-content{
+    flex: 5;
+}
+#content-container{
+    display: flex;
+    flex: 5;
+    flex-flow: column nowrap;
+    gap: 1rem 2rem;
+}
+.card{
+    background: rgba(255,255,255,.9);
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+.about-section ul{
+    padding-left: 20px;
+}
+.about-section h2{
+    font-family: Raleway,sans-serif;
+    font-size: 1.8em;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.about-section hr,.funfacts-section hr,.story-section hr{
+    border: 1px solid #333;
+    margin: 10px 0;
+}
+.about-section h3{
+    font-family: Lora,serif;
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 20px;
+}
+.about-section p,.funfacts-section p,.story-section p,li{
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+.funfacts-section h3,.latest-update h2,footer{
+    font-family: Raleway,sans-serif;
+}
+.featured-image-elements{
+    width: 100%;
+    max-height: 75px;
+    margin-top: 25px;
+    object-fit: cover;
+    object-position: center;
+}
+mark{
+    background-color: #5f9ea0;
+    color: #000;
+}
+.featured-image-traveler{
+    width: 200px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.featured-image-slime{
+    width: 100px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.featured-image-beidou,.featured-image-fischl,.featured-image-xiao{
+    width: 110px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+}
+.images{
+    margin-left: 230px;
+}
+.funfacts-section h3{
+    color: #437c7e;
+}
+.featured-image-beidou,.featured-image-fischl{
+    margin-left: 10px;
+}
+.featured-image-kazuha{
+    width: 120px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: -4px;
+}
+.images-characters{
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+aside{
+    margin-right: 50px;
+}
+.featured-image-logo{
+    width: 160px;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin-left: 110px;
+    margin-top: 20px;
+}
+.latest-update{
+    background: rgba(245,245,245,.9);
+    padding: 10px;
+    border-radius: 8px;
+    width: 400px;
+    height: 450px;
+    box-shadow: 0 2px 5px rgba(0,0,0,.2);
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+.latest-update h2{
+    font-size: 1.8em;
+    color: #333;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.latest-update hr{
+    border: 1px solid #333;
+    margin: 10px 0 10px 10px;
+}
+.latest-update h3{
+    font-family: Lora,serif;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #555;
+    margin-left: 10px;
+}
+.latest-update p{
+    font-family: Montserrat,sans-serif;
+    color: #666;
+    margin-left: 10px;
+}
+.video{
+    width: 300px;
+    height: 168px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer{
+    color: #fff;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.content-container,.latest-update{
+    opacity: 0;
+}
+.fade-in{
+    opacity: 1;
+    animation: 1s ease-out forwards fadeIn;
+}
+.latest-update{
+    animation-delay: .2s;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+@media (max-width: 1024px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+        padding: 30px;
+    }
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .card {
+        margin: 0 auto;
+    }
+    aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 160px;
+        margin-top: 40px;
+        padding: 20px;
+        gap: 10px;
+    }
+    aside * {
+        max-width: 80%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .latest-update {
+        width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .featured-image-logo,.latest-update hr,.latest-update h3, .latest-update h2,.latest-update p {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .images, .images-characters {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        display: block;
+    }
+}
+@media (max-width: 768px) {
+    .jumbotron {
+        padding: 20px;
+    }
+    .title {
+        font-size: 2.5em;
+    }
+    .subtitle {
+        font-size: 1em;
+    }
+    .nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav a {
+        display: block;
+        margin: 5px 0;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+    .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    aside {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 40px;
+        margin-left: 30px;
+    }
+    aside * {
+        margin-top: 10px;
+        max-width: 90%;
+    }
+    .latest-update {
+        width: 100%;
+        height: auto;
+        padding: 15px;
+    }
+    .video {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+    .featured-image-logo {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+}
